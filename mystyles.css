@@ -1,0 +1,51 @@
+body {
+  background-color: grey;
+}
+.border {
+  border: thick solid black;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 4em;
+}
+.opener {
+  padding: 5%;
+  background-color: rgb(179, 247, 151);
+  border-bottom: thin solid black;
+}
+h2 {
+  font-size: 3em;
+}
+/* creates a body with padding.*/
+.body {
+  padding: 1% 5% 3% 5%;
+  background-color: rgb(179, 247, 151);
+}
+li {
+  font-size: 1.5em;
+  font-style: italic;
+
+}
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
